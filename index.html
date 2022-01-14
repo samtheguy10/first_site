@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam Chess Coaching</title>
+</head>
+
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        font-family: 'Baloo Bhaina 2';
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg3.jpg');
+        height: 500px;
+        /* You must set a specified height */
+        background-position: center;
+        /* Center the image */
+        background-repeat: no-repeat;
+        /* Do not repeat the image */
+        background-size: cover;
+        /* Resize the background image to cover the entire container */
+
+    }
+
+    .left {
+        display: inline-block;
+        border: 2px solid red;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+    }
+
+    .mid {
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+        border: 2px solid green;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        border: 2px solid yellow;
+
+    }
+
+    .left img {
+        width: 136px;
+        height: 100px;
+    }
+
+    .left {
+
+        text-align: center;
+    }
+
+    .navbar li {
+        display: inline-block;
+        ;
+    }
+
+    .navbar li a {
+
+        text-decoration: none;
+        color: white;
+        font-family: 'Baloo Bhaina 2';
+        padding: 15px 15px;
+        font-size: 20px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: rgb(24, 148, 79);
+        text-decoration: underline;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhaina 2';
+        margin: 0px 10px;
+        background-color: red;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        color: coral;
+    }
+
+    .container {
+        margin: 20mm 125mm;
+    padding: 5mm 39mm;
+    border-radius: 5mm;
+    border: 2px solid crimson;
+    width: 17%;
+    }
+    .form1{
+        margin: 3mm 10mm;
+    }
+    .form1 input{
+        margin: 1mm 3mm;
+        padding: 1mm 2mm;
+        border: 2px solid blueviolet;
+        border-radius: 5mm;
+        font-family: 'Baloo Bhaina 2';
+        text-align: center;
+    }
+    .container h3{
+        text-align: center;
+
+    }
+    .container button{
+        margin: 11px 30px;
+        background-color:rgb(29, 133, 202);
+        width: 90%;
+        display: block;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- left box for logo -->
+
+            <img src="img/bg.jpg" alt="">
+            <div>Shivam Coaching</div>
+
+        </div>
+        <div class="mid">
+            <!-- mid box for navbar -->
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Chess Training</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button><button class="btn">Email Us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h3>Join our Coaching</h3>
+        <form action="noaction.php">
+            <div class="form1">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form1">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form1">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+
+    </div>
+</body>
+
+</html>
